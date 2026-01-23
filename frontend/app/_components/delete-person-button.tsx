@@ -8,7 +8,6 @@ type Props = {
 
 const DeletePersonButton = ({ id }: Props) => {
   const handledelete = async () => {
-    console.log("Deleting person with id:", id);
     await deletePerson(id);
   };
 

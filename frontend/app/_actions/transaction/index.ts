@@ -52,7 +52,5 @@ export const getAllTransactions = async () : Promise<TransactionDetails[]> => {
   });
   const data = await res.json();
 
-  console.log("Fetched transactions:", data);
-
   return data;
 };
