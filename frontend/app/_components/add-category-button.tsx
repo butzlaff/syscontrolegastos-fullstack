@@ -1,0 +1,25 @@
+"use client";
+
+import { useState } from "react";
+import { Button } from "./ui/button";
+import { ArrowDownUpIcon } from "lucide-react";
+import UpsertCategoryDialog from "./upsert-category-dialog";
+
+const AddCategoryButton = () => {
+  const [dialogIsOpen, setDialogIsOpen] = useState(false);
+
+  return (
+    <>
+      <Button
+        className="rounded-full font-bold"
+        onClick={() => setDialogIsOpen(true)}
+      >
+        Adicionar Categoria
+        <ArrowDownUpIcon />
+      </Button>
+      <UpsertCategoryDialog isOpen={dialogIsOpen} setIsOpen={setDialogIsOpen} />
+    </>
+  );
+};
+
+export default AddCategoryButton;
