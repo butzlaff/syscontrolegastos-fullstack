@@ -33,7 +33,7 @@ const CategoriesBalancePage = async () => {
       <NavigationButtons />
       <div className="space-y-6 p-6">
         <div className="flex w-full items-start justify-between">
-          <h1 className="text-2xl font-bold">Saldo das Pessoas</h1>
+          <h1 className="text-2xl font-bold">Saldo por Categoria</h1>
         </div>
         <DataTable columns={categoryBalanceColumns} data={categories} />
 
