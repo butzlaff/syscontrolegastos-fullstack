@@ -3,7 +3,7 @@ import NavigationButtons from "../_components/navigations-buttons";
 import { personColumns } from "./_columns";
 import { getAllPersons } from "../_actions/person";
 import AddPersonButton from "../_components/add-person-button";
-import ViewPersonsBalanceButton from "../_components/view-categories-balance-button";
+import ViewPersonsBalanceButton from "../_components/view-persons-balance-button";
 
 const PersonsPage = async () => {
   const { persons } = await getAllPersons();
