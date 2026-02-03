@@ -20,6 +20,8 @@ Projeto criado com foco em organização de arquitetura, boas práticas, clareza
 - **react-number-format** (inputs monetários)
 - **Lucide Icons**
 
+Utilização de **shadcn/ui**, permitindo total controle e customização dos componentes
+
 Ferramentas de qualidade:
 
 - ESLint
@@ -59,10 +61,12 @@ Ferramentas de qualidade:
 
 ## 🧩 Estrutura do Projeto
 
+```
 /
 ├── backend/ # API ASP.NET Core
 ├── frontend/ # Next.js 14 (React)
 ├── README.md
+```
 
 ---
 
